@@ -1,0 +1,24 @@
+.home__image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgb(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+.home {
+  margin: auto;
+  max-width: 1600px;
+  background-color: #f5f5f5;
+}
+.home__row {
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.page_ad_div {
+  margin-top: 200px;
+}
+@media screen and (max-width: 453px) and (min-width: 200px) {
+  .home {
+    /* width: 160%; */
+  }
+}

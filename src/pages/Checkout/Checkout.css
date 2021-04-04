@@ -1,0 +1,48 @@
+.checkout__ad {
+  width: 100%;
+}
+.checkout__title {
+  margin-left: 35px;
+  margin-right: 35px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  position: relative;
+  /* min-height: 50vh; */
+}
+.greeting__guest {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.page__ad {
+  object-fit: contain;
+}
+.page_ad_div {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -200px;
+}
+@media screen and (max-width: 400px) {
+  .greeting__guest > h1 {
+    font-size: 15px;
+  }
+  .greeting__guest {
+    margin: 0;
+  }
+  .checkout__title {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .subTotal {
+    width: 175px !important;
+  }
+  .subTotal p {
+    font-size: 14px;
+  }
+}

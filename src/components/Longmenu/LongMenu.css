@@ -1,0 +1,53 @@
+.longMenu {
+  display: none;
+}
+
+.MuiIconButton-label {
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .longMenu {
+    display: block;
+    margin-left: auto;
+    /* width: 160%; */
+  }
+}
+@media screen and (min-width: 400px) {
+  .MuiPaper-root {
+    display: none;
+    /* width: 160%; */
+  }
+}
+.header__link {
+  text-decoration: none;
+}
+.menuItem a {
+  color: white !important;
+  text-decoration: none;
+  text-align: left !important;
+  font-weight: 600;
+  padding-bottom: 10px !important;
+}
+.menuItem a:hover {
+  color: #f0c14b !important;
+}
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  width: 100px !important;
+}
+.menuList {
+  text-decoration: none !important;
+}
+.MuiPaper-root {
+  left: 264px !important;
+  background: #131921 !important ;
+  width: 11ch !important;
+  height: 12ch !important;
+  text-align: -webkit-center;
+}
+.MuiMenuItem-root {
+  display: flex !important;
+  align-items: baseline !important;
+}
